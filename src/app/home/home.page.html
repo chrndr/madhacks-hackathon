@@ -1,8 +1,24 @@
 <ion-header>
   <ion-toolbar>
-    <ion-title>
-      Tab One
-    </ion-title>
+    <ion-title>Madhacks</ion-title>
+    <ion-buttons slot="primary">
+        <ion-button [routerLink]="['']">
+          <ion-icon name="home" size="large"></ion-icon>
+          <ion-label>Home</ion-label>
+        </ion-button>
+        <ion-button [routerLink]="['/faq']">
+          <ion-icon name="help" size="large"></ion-icon>
+          <ion-label>FAQ</ion-label>
+        </ion-button>
+        <ion-button [routerLink]="['/schedule']">
+          <ion-icon name="calendar" size="large"></ion-icon>
+          <ion-label>Schedule</ion-label>
+        </ion-button>
+        <ion-button [routerLink]="['/contact']">
+          <ion-icon name="contact" size="large"></ion-icon>
+          <ion-label>Contact</ion-label>
+        </ion-button>
+      </ion-buttons>
   </ion-toolbar>
 </ion-header>
 
